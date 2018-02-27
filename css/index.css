@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  text-align: center;
+
+}
+h1 {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  color: ghostwhite;
+}
+
+.hyperlink {
+  color: white;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+  font-family: Verdana;
+  color: ghostwhite;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 21px;
+  color: lightgray;
+
+}
+
+#copyright {
+  text-align: right;
+  font-size: 16px;
+}
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: white;
+    transition-duration: 1.5s;
+    color: black;
+}
